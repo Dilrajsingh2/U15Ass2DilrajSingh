@@ -1,79 +1,133 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Mission - Slovenské Vzdelávacie Centrum</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-        header {
-            background-color: #004080;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 24px;
-        }
-        .container {
-            width: 90%;
-            max-width: 900px;
-            margin: 30px auto;
-            background: white;
-            padding: 30px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1, h2 {
-            color: #003366;
-            text-align: center;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            color: #333;
-        }
-        .highlight {
-            font-weight: bold;
-            color: #cc5500;
-        }
-        .footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://example.com/slovak_heritage.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #cc5500;
+}
+
+/* Main Content Blocks */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.content-block {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Highlight Text */
+.highlight {
+    font-weight: bold;
+    color: #cc5500;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
 </head>
 <body>
 
 <header>
-    Slovenské Vzdelávacie Centrum – South Manchester
+    <h1>Slovenské Vzdelávacie Centrum – South Manchester</h1>
 </header>
-
 <div class="container">
-    <h1>Our Mission</h1>
-    <p>At <span class="highlight">Slovenské Vzdelávacie Centrum – South Manchester</span>, our mission goes beyond just teaching the Slovak language. We are here to keep our heritage alive, to ensure that children growing up abroad don’t lose their connection to their roots, and to create a place where Slovak culture thrives—even far from home.</p>
+    <div class="content-block" id="mission">
+        <h2>Our Mission</h2>
+        <p>At <span class="highlight">Slovenské Vzdelávacie Centrum – South Manchester</span>, our mission goes beyond just teaching the Slovak language. We are here to keep our heritage alive, to ensure that children growing up abroad don’t lose their connection to their roots, and to create a place where Slovak culture thrives—even far from home.</p>
 
-    <p>We believe that <span class="highlight">language is more than just words</span>; it carries identity, history, and a sense of belonging. Through our work, we bring Slovak-speaking families together, helping them build friendships, strengthen their cultural ties, and feel at home even while living in the UK.</p>
+        <p>We believe that <span class="highlight">language is more than just words</span>; it carries identity, history, and a sense of belonging. Through our work, we bring Slovak-speaking families together, helping them build friendships, strengthen their cultural ties, and feel at home even while living in the UK.</p>
+    </div>
 
-    <h2>Education & Cultural Support</h2>
-    <p>Education is at the heart of what we do, but our purpose extends even further. We are here to <span class="highlight">bridge the gap</span> between the UK and Slovak education systems, ensuring that children who may one day return to Slovakia can transition smoothly.</p>
-    
-    <p>We are here to support families, guide them, and make sure no one feels lost when navigating life between two countries.</p>
+    <div class="content-block" id="education">
+        <h2>Education & Cultural Support</h2>
+        <p>Education is at the heart of what we do, but our purpose extends even further. We are here to <span class="highlight">bridge the gap</span> between the UK and Slovak education systems, ensuring that children who may one day return to Slovakia can transition smoothly.</p>
+        
+        <p>We are here to support families, guide them, and make sure no one feels lost when navigating life between two countries.</p>
+    </div>
 
-    <h2>Building a Strong Slovak Community</h2>
-    <p>Above all, we are here to <span class="highlight">create a community</span>—one that welcomes, supports, and celebrates Slovak language, traditions, and the people who cherish them.</p>
+    <div class="content-block" id="community">
+        <h2>Building a Strong Slovak Community</h2>
+        <p>Above all, we are here to <span class="highlight">create a community</span>—one that welcomes, supports, and celebrates Slovak language, traditions, and the people who cherish them.</p>
+    </div>
 </div>
 
-<div class="footer">
-    © 2025 Slovenské Vzdelávacie Centrum – South Manchester | Keeping Slovak Heritage Alive
-</div>
+<footer>
+    <p>© 2025 Slovenské Vzdelávacie Centrum – South Manchester | Keeping Slovak Heritage Alive</p>
+</footer>
 
 </body>
 </html>
+
