@@ -1,133 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Mission - Slovenské Vzdelávacie Centrum</title>
-    <link rel="stylesheet" href="styles.css">
-<style>
-    /* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
-}
-
-/* Header */
-header {
-    background-color: #004080;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 24px;
-}
-
-/* Hero Section */
-.hero {
-    background: url('https://example.com/slovak_heritage.jpg') no-repeat center center/cover;
-    text-align: center;
-    padding: 80px 20px;
-    color: white;
-}
-
-.hero-text h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.hero-text p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.btn {
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background-color: #cc5500;
-}
-
-/* Main Content Blocks */
-.container {
-    width: 90%;
-    max-width: 900px;
-    margin: 30px auto;
-    background: white;
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.content-block {
-    margin-bottom: 40px;
-}
-
-h2 {
-    color: #003366;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-/* Highlight Text */
-.highlight {
-    font-weight: bold;
-    color: #cc5500;
-}
-
-/* Footer */
-footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slovak Charity - Help Those in Need</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <div class="logo">Slovak Charity</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#charity">Charity</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-    <h1>Slovenské Vzdelávacie Centrum – South Manchester</h1>
-</header>
-<div class="container">
-    <div class="content-block" id="mission">
-        <h2>Our Mission</h2>
-        <p>At <span class="highlight">Slovenské Vzdelávacie Centrum – South Manchester</span>, our mission goes beyond just teaching the Slovak language. We are here to keep our heritage alive, to ensure that children growing up abroad don’t lose their connection to their roots, and to create a place where Slovak culture thrives—even far from home.</p>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Empowering Lives Through Education</h1>
+      <p>Providing free language classes and better education for children in Slovakia.</p>
+      <button onclick="window.location.href='https://www.donationslovakia.org'">Donate Now</button>
+    </div>
+  </section>
 
-        <p>We believe that <span class="highlight">language is more than just words</span>; it carries identity, history, and a sense of belonging. Through our work, we bring Slovak-speaking families together, helping them build friendships, strengthen their cultural ties, and feel at home even while living in the UK.</p>
+  <main>
+    <section id="charity" class="charity-section">
+      <h2>Support Slovak Charity</h2>
+      <p>We are committed to providing <strong>free education, language classes, and essential resources</strong> to underprivileged children and families.</p>
+
+      <div class="charity-images">
+        <img src="https://example.com/slovak_charity_image1.jpg" alt="Helping Children" class="charity-image">
+        <img src="https://example.com/slovak_charity_image2.jpg" alt="Community Support" class="charity-image">
+      </div>
+
+      <h3>Our Mission</h3>
+      <p>Slovak Charity helps <strong>underprivileged children and adults</strong> gain access to quality education and essential life skills. One of our key initiatives is offering <strong>free language-speaking classes</strong> to help individuals communicate effectively, gain confidence, and improve their career opportunities.</p>
+
+      <div class="charity-info">
+        <div class="charity-box">
+          <h3>🌍 Free Language Classes</h3>
+          <p>We provide <strong>free Slovak, English, German, and French lessons</strong> to children and adults, helping them integrate better into society and improve job prospects.</p>
+        </div>
+        <div class="charity-box">
+          <h3>📚 Education for All</h3>
+          <p>Helping children stay in school by offering <strong>scholarships, books, and learning materials</strong>.</p>
+        </div>
+        <div class="charity-box">
+          <h3>🏥 Medical Assistance</h3>
+          <p>We fund <strong>health programs, hospital treatments, and support services</strong> for struggling families.</p>
+        </div>
+      </div>
+
+      <h3>Why Language Education Matters</h3>
+      <p>Language skills help individuals <strong>gain confidence, find better job opportunities, and integrate into communities</strong>. Our classes focus on:</p>
+      <ul>
+        <li>✅ <strong>Slovak Language Support</strong> for newcomers and underprivileged families.</li>
+        <li>✅ <strong>English, German, and French Classes</strong> for career growth.</li>
+        <li>✅ <strong>Interactive Learning Methods</strong> including group conversations and real-life scenarios.</li>
+      </ul>
+
+      <button class="volunteer-btn" onclick="window.location.href='https://www.volunteerslovakia.org'">Become a Volunteer</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h2>Slovak Charity</h2>
+        <p>Empowering lives through education and support.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#charity">Charity</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:info@slovakcharity.org">info@slovakcharity.org</a></p>
+        <p>Phone: +421 123 456 789</p>
+        <p>Address: Bratislava, Slovakia</p>
+      </div>
+      
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <a href="https://www.facebook.com/slovakcharity" target="_blank">Facebook</a> |
+        <a href="https://www.twitter.com/slovakcharity" target="_blank">Twitter</a> |
+        <a href="https://www.instagram.com/slovakcharity" target="_blank">Instagram</a>
+      </div>
     </div>
 
-    <div class="content-block" id="education">
-        <h2>Education & Cultural Support</h2>
-        <p>Education is at the heart of what we do, but our purpose extends even further. We are here to <span class="highlight">bridge the gap</span> between the UK and Slovak education systems, ensuring that children who may one day return to Slovakia can transition smoothly.</p>
-        
-        <p>We are here to support families, guide them, and make sure no one feels lost when navigating life between two countries.</p>
-    </div>
-
-    <div class="content-block" id="community">
-        <h2>Building a Strong Slovak Community</h2>
-        <p>Above all, we are here to <span class="highlight">create a community</span>—one that welcomes, supports, and celebrates Slovak language, traditions, and the people who cherish them.</p>
-    </div>
-</div>
-
-<footer>
-    <p>© 2025 Slovenské Vzdelávacie Centrum – South Manchester | Keeping Slovak Heritage Alive</p>
-</footer>
-
+    <p class="footer-bottom">© 2025 Slovak Charity | Designed with ❤️</p>
+  </footer>
 </body>
 </html>
+
 
