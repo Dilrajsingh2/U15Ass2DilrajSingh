@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Mission - Slovak Community Charity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Our Mission</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="dates.html">Dates & Fees</a></li>
+        <li><a href="games.html">Educational Games</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <article id="mission-statement">
+      <header>
+        <h2>Our Mission Statement</h2>
+      </header>
+      <p>
+        At <strong>Slovenské Vzdelávacie Centrum – South Manchester</strong>, our mission goes far beyond teaching the Slovak language. We are devoted to preserving our rich cultural heritage and ensuring that the spirit of Slovakia thrives, even when far from home.
+      </p>
+      <p>
+        Our goal is to provide an inclusive and nurturing environment where Slovak-speaking families and individuals can remain connected to their roots. We strive to empower children growing up abroad so that they never lose sight of their heritage, and we welcome anyone interested in exploring the beauty of Slovak culture.
+      </p>
+    </article>
+
+    <article id="cultural-preservation">
+      <header>
+        <h2>Cultural Preservation and Community Engagement</h2>
+      </header>
+      <p>
+        We believe that language is more than a means of communication; it encapsulates identity, history, and a deep sense of belonging. Through our comprehensive educational programs and community initiatives, we bridge the gap between the United Kingdom and Slovak traditions. Our work brings families together, encourages intergenerational dialogue, and fosters a vibrant cultural community.
+      </p>
+      <p>
+        By organizing workshops, social events, and cultural celebrations, we create opportunities for everyone—whether they are lifelong residents or newcomers—to engage with and contribute to our shared heritage.
+      </p>
+    </article>
+
+    <article id="educational-commitment">
+      <header>
+        <h2>Our Commitment to Education</h2>
+      </header>
+      <p>
+        Education is at the core of our mission. We offer a structured Saturday school where children and adults alike can learn the Slovak language, ensuring that future generations maintain a strong connection to their cultural roots. Additionally, we work closely with families to navigate the challenges of bridging the UK and Slovak education systems, ensuring a smooth transition for children who may return to Slovakia.
+      </p>
+      <p>
+        Our dedicated team of educators and community leaders supports families every step of the way, providing guidance, resources, and a sense of belonging to those navigating life between two cultures.
+      </p>
+    </article>
+
+    <article id="community-building">
+      <header>
+        <h2>Building a Thriving Community</h2>
+      </header>
+      <p>
+        Above all, our mission is to create a dynamic and supportive community. We celebrate the diversity within our group and believe that every member has a role in preserving and promoting our Slovak heritage. Whether through educational programs, cultural workshops, or community events, we are here to ensure that the traditions we hold dear are passed on with pride and passion.
+      </p>
+      <p>
+        Join us in our journey to keep the spirit of Slovakia alive, no matter where life takes you.
+      </p>
+    </article>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Slovak Community Charity. All rights reserved.</p>
+  </footer>
+</body>
+</html>
