@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header and Navigation */
+header {
+  background: #0033a0;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Section Styling with Fade-in Animation */
+section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 40px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #0033a0;
+}
+
+/* Text Styling */
+p, ul, blockquote {
+  line-height: 1.6;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding-left: 20px;
+  border-left: 3px solid #0033a0;
+  font-style: italic;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #0033a0;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
