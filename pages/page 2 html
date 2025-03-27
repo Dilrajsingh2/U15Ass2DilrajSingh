@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Slovak Community Charity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="dates.html">Dates & Fees</a></li>
+                <li><a href="games.html">Educational Games</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Who We Are</h2>
+        <p><strong>Slovenské Vzdelávacie Centrum – South Manchester</strong> is a registered charity dedicated to preserving and promoting the rich Slovak language, traditions, and cultural heritage. Our mission is to provide high-quality Slovak language education while fostering a vibrant and inclusive community where individuals can celebrate and stay connected to their roots.</p>
+        
+        <h3>Our Purpose</h3>
+        <p>Our charity exists to support Slovak-speaking families, children, and individuals who wish to maintain their language and culture while living abroad. However, we warmly welcome everyone—regardless of background—who has an interest in learning the Slovak language and exploring our beautiful customs and traditions.</p>
+        
+        <h3>What We Offer</h3>
+        <ul>
+            <li>A well-structured <strong>Saturday school</strong> offering Slovak language classes for children and adults.</li>
+            <li>Engaging <strong>cultural workshops</strong> focusing on traditional crafts, music, and folklore.</li>
+            <li>A variety of <strong>community events</strong>, including festive celebrations, storytelling sessions, and heritage days.</li>
+            <li>Social gatherings and support networks for Slovak families and individuals in South Manchester.</li>
+        </ul>
+        
+        <h3>Join Our Community</h3>
+        <p>By becoming a part of our charity, you will not only have the opportunity to learn and engage with Slovak culture, but you will also contribute to keeping our traditions alive for future generations. We invite you to take part in our educational programs, attend our vibrant events, and share in the joy of community spirit.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Slovak Community Charity. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
