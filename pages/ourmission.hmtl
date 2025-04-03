@@ -11,12 +11,16 @@
     <h1>Our Mission</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about_us.html">About Us</a></li>
-        <li><a href="membership.html">Membership</a></li>
-        <li><a href="dates.html">Dates & Fees</a></li>
-        <li><a href="games.html">Educational Games</a></li>
-        <li><a href="events.html">Events</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="datesandfees.html">Dates & Fees</a></li>
+                <li><a href="library&journal.html">library & journal</a></li>
+                <li><a href="onlinepractices&events.html">onlinepratices & events</a></li>
+                <li><a href="ourmission.html">our mission</a></li>
+                <li><a href="ourstory&offerings.html">our story & offerings</a></li>
+                <li><a href="senatourschool.html">sen at our school</a></li>
+                <li><a href="slovakcommunitycharity.html">Events</a></li>
+                <li><a href="ourteam.html">Our Team</a></li>
+
       </ul>
     </nav>
   </header>
